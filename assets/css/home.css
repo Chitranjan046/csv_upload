@@ -1,0 +1,120 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+/* .container {
+  margin-top: 70px;
+} */
+.navbar {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 8px 6px -6px black;
+    padding: 0px 30px;
+    background-color: rgb(224, 167, 23);
+    
+}
+.navbar:hover {
+  background-color: blue;
+}
+.center-text h1 {
+  font-size: 44px;
+  font-family: Franklin Gothic Medium;
+  text-align: center;
+  height: 35px;
+}
+.center-text p {
+  font-size: 22px;
+  font-family: Franklin Gothic;
+  text-align: center;
+  color: gray;
+}
+.upload-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  background-color: rgb(198, 202, 198);
+  border: 2px lightgrey;
+  box-shadow: 0 8px 6px -6px black;
+}
+.upload-container:hover{
+  background-color: aqua;
+}
+.upload-btn {
+  width: 130px;
+  height: 40px;
+  border: none;
+  background-color: rgb(149, 232, 75);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.upload-btn:hover {
+background-color: green;
+}
+
+.l-c-t {
+  color: #f8f8f8;
+  font-family: Franklin Gothic;
+  text-align: left;
+  margin-top: 50px;
+}
+.l-c-t h2 {
+  padding: 5px;
+  font-size: 30px;
+  color: greenyellow;
+}
+.l-c-t h2:hover{
+  color: #0000f1;
+}
+.no-file {
+  font-size: 22px;
+  color: steelblue;
+  font-family: Franklin Gothic;
+  text-align: center;
+}
+.file-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* margin: 20px 0; */
+  margin: auto;
+}
+th,
+td {
+  text-align: left;
+  padding: 12px;
+}
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+td {
+  border-bottom: 1px solid #ddd;
+}
+.view-link {
+  padding: 10px;
+  text-decoration: none;
+  color: #0000f1;
+}
+.delete-link {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/*  styles on hover */
+.upload-btn:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 0px 2px 2px 1px rgba(75, 136, 253, 0.4);
+  cursor: pointer;
+}
